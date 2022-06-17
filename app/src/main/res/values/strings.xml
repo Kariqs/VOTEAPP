@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string-array name="Governor">
+        <item>GOVERNOR</item>
+        <item>SIMBA ARATI</item>
+        <item>EZEKIEL MACHOGU</item>
+        <item>SAM ONGERI</item>
+        <item>CHRIS OBURE</item>
+        <item>BISHOP JOSIAH BIGOYO</item>
+        <item>MANSON NYAMWEYA</item>
+        <item>RACHEL OTUNDO</item>
+    </string-array>
+
+    <string-array name="Senator">
+        <item>SENATOR</item>
+        <item>OMINGO MAGARA</item>
+        <item>RICHARD ONYONKA</item>
+        <item>JOASH MAANGI</item>
+    </string-array>
+
+    <string-array name="Women_rep">
+        <item>WOMEN REP</item>
+        <item>BRIGIT OMBATI</item>
+        <item>DORICE NYABOKE</item>
+        <item>FONTINA NGARE</item>
+        <item>EVERLINE OGENDO</item>
+        <item>DORINE BWARI</item>
+        <item>JULIE NYANCHAMA</item>
+        <item>GETRUDE MOGOI</item>
+        <item>GLADYS AUNGA</item>
+        <item>MAUREEN OBINO</item>
+        <item>RISPER NDEGE</item>
+        <item>REBECCA AKEMO</item>
+        <item>LUCY MACHUKI</item>
+    </string-array>
+</resources>
