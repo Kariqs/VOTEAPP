@@ -30,13 +30,28 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
                     email.setText("");
                     password.setText("");
-                }else if (email.getText().toString().equals("candidate@iebc.ac.ke")&& password.getText().toString().equals("12345")){
-                    Intent i = new Intent(MainActivity.this, Candidate.class);
+                }else if (email.getText().toString().equals("governor@iebc.ac.ke")&& password.getText().toString().equals("12345")){
+                    Intent i = new Intent(MainActivity.this, GRecycle.class);
                     startActivity(i);
                     Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
                     email.setText("");
                     password.setText("");
-                }else{
+                }
+                else if (email.getText().toString().equals("senator@iebc.ac.ke")&& password.getText().toString().equals("12345")){
+                    Intent i = new Intent(MainActivity.this, Srecycle.class);
+                    startActivity(i);
+                    Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                    email.setText("");
+                    password.setText("");
+                }
+                else if (email.getText().toString().equals("womenrep@iebc.ac.ke")&& password.getText().toString().equals("12345")){
+                    Intent i = new Intent(MainActivity.this, Wrecycle.class);
+                    startActivity(i);
+                    Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                    email.setText("");
+                    password.setText("");
+                }
+                else{
                     email.setText("");
                     password.setText("");
                     Toast.makeText(MainActivity.this, "Please enter correct login credentials", Toast.LENGTH_SHORT).show();
