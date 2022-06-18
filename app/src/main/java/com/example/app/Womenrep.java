@@ -57,7 +57,7 @@ public class Womenrep extends AppCompatActivity  {
         ID = databaseReference.push().getKey();
 
         WrepHelper wrepHelper = new WrepHelper(WOMEN_REP,VOTES,CONSTITUENCY,WARD,POLLING_STATION);
-        databaseReference.child("Women Rep").child(ID).setValue(wrepHelper);
+        databaseReference.child("WomenRep").child(ID).setValue(wrepHelper);
         Toast.makeText(this, "POSTED SUCCESSFUL", Toast.LENGTH_SHORT).show();
         w_votes.setText("");
         w_constituency.setText("");
