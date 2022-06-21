@@ -26,14 +26,13 @@ public class Wrecycle extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wrecycle);
-<<<<<<< HEAD
+
 
         if (getSupportActionBar() != null){
             getSupportActionBar().hide();
         }
 
-=======
->>>>>>> origin/master
+
         recyclerView=findViewById(R.id.wrecyclerview);
         databaseReference = FirebaseDatabase.getInstance().getReference("WomenRep");
         list = new ArrayList<>();
