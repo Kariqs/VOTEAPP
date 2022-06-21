@@ -24,6 +24,11 @@ public class Governor extends AppCompatActivity implements AdapterView.OnItemSel
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_governor);
+
+        if (getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
+
         gov_spinner = findViewById(R.id.gov_spinner);
         gov_votes = findViewById(R.id.gov_votes);
         gov_constituency = findViewById(R.id.gov_constituency);

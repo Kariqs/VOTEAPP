@@ -26,6 +26,11 @@ public class Srecycle extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_srecycle);
+
+        if (getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
+
         recyclerView=findViewById(R.id.srecyclerview);
         databaseReference = FirebaseDatabase.getInstance().getReference("Senators");
         list = new ArrayList<>();

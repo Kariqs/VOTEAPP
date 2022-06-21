@@ -24,6 +24,11 @@ public class Womenrep extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_womenrep);
+
+        if (getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
+
         w_spinner = findViewById(R.id.w_spinner);
         w_votes= findViewById(R.id.w_votes);
         w_constituency = findViewById(R.id.w_constituency);
