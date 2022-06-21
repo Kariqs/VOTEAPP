@@ -25,9 +25,7 @@ public class Senator extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_senator);
 
-        if (getSupportActionBar() != null){
-            getSupportActionBar().hide();
-        }
+
 
         sen_spinner = findViewById(R.id.sen_spinner);
         sen_votes = findViewById(R.id.sen_votes);

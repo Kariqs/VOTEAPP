@@ -27,9 +27,6 @@ public class GRecycle extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grecycle);
 
-        if (getSupportActionBar() != null){
-            getSupportActionBar().hide();
-        }
 
         recyclerView=findViewById(R.id.grecyclerview);
         databaseReference = FirebaseDatabase.getInstance().getReference("Governors");

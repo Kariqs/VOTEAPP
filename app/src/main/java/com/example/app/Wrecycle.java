@@ -28,9 +28,7 @@ public class Wrecycle extends AppCompatActivity {
         setContentView(R.layout.activity_wrecycle);
 
 
-        if (getSupportActionBar() != null){
-            getSupportActionBar().hide();
-        }
+
 
 
         recyclerView=findViewById(R.id.wrecyclerview);
